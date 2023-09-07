@@ -1,0 +1,9 @@
+.text{
+    font-size: 60px;
+    display: block;
+    margin: auto;
+    color: #D81B60;
+    /* width: 300px; */
+    text-align: center;
+    letter-spacing: 4px;
+}

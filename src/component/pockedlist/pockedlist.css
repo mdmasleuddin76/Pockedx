@@ -1,0 +1,19 @@
+.pockemonlist{
+       display: flex;
+    flex-basis: 25%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.but{
+    text-align: center;
+}
+.but button{
+    background-color: #5ed6da;
+    padding: 9px;
+    margin: 30px 20px;
+    border-radius: 50%;
+}
+.but button:hover{
+    background-color: #318d91;
+    cursor: pointer;
+}
