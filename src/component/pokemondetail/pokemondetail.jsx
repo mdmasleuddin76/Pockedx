@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState,useEffect } from "react";
 import { useParams } from "react-router-dom"
-import './pokemondetail.css'
+import style from './pokemondetail.css'
 function Pokemondetail(){
     const {id}=useParams();
     const url=`https://pokeapi.co/api/v2/pokemon/${id}/`
@@ -22,16 +22,14 @@ function Pokemondetail(){
         temp();
     },[])
 return(
-
-   
-    <div className="temp">
-      <div className="name">Name: {data.name &&data.name.toUpperCase()}</div>
-      <img className="img" src={data.image} alt="img"/>
-      <div className="height">Height: {data.height}</div>
-      <div className="wieght">Weight: {data.weight}</div>
-      <div className="type">
-        <div className="typechild">Types:</div> 
-        {data.types&&data.types.map((n)=><div className="typechild" key={n}>{n&&n.toUpperCase()}</div>)}
+    <div className={style.temp}>
+      <div className={style.name}>Name: {data.name &&data.name.toUpperCase()}</div>
+      <img className={style.img}src={data.image} alt="img"/>
+      <div className={style.height}>Height: {data.height}</div>
+      <div className={style.weight}>Weight: {data.weight}</div>
+      <div className={style.typechild}>
+        <div className={style.typechild}>Types:</div> 
+        {data.types&&data.types.map((n)=><div className={style.typechild} key={n}>{n&&n.toUpperCase()}</div>)}
       </div>
     </div>
 )

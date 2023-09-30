@@ -12,6 +12,8 @@ a{
     border-radius: 20%;
     padding: 20px;
     margin: 20px;
+    background-color:#ffd8b5;
+    box-shadow: black 10px 1px 10px;
 }
 .img div{
     text-decoration: none;
