@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Pockedx/static/css/main.be5f5a17.css",
+    "main.js": "/Pockedx/static/js/main.acec7902.js",
+    "index.html": "/Pockedx/index.html",
+    "main.be5f5a17.css.map": "/Pockedx/static/css/main.be5f5a17.css.map",
+    "main.acec7902.js.map": "/Pockedx/static/js/main.acec7902.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be5f5a17.css",
+    "static/js/main.acec7902.js"
+  ]
+}
